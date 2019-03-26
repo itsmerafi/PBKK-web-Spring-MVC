@@ -34,6 +34,6 @@ public class BookController {
 		model.addAttribute("name", book.getName());
 		model.addAttribute("author", book.getAuthor());
 		model.addAttribute("year", book.getYear());
-		return "detail";
+		return "DetailBook";
 	}
 }
